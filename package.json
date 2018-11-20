@@ -1,0 +1,25 @@
+{
+  "name": "ireporter",
+  "version": "1.0.0",
+  "description": "iReporter app enables any citizen to bring any form of corruption to the notice of appropriate authorities and the general public",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samorahno/ireporter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samorahno/ireporter/issues"
+  },
+  "homepage": "https://github.com/samorahno/ireporter#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
