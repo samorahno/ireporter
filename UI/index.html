@@ -37,6 +37,12 @@
 				</li>
 				<li>
 					<a href="#">
+						<span ><i class="fa fa-envelope"></i></span>
+						<span>View Profile</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
 						<span ><i class="fa fa-power-off"></i></span>
 						<span>Logout</span>
 					</a>
@@ -86,10 +92,10 @@
 					</div>
 				</div>
 				<div class="widget">
-					<div class="title heado">Red-flag Under Investigation</div>
+					<div class="title heado">Intervention Investigation</div>
 					<div class="widget_stat">
 						<div class="widget_stat1">
-						<i class="fa fa-dot-circle-o"></i>
+						<i class="fa fa-asterisk"></i>
 						</div>
 						<div class="widget_stat2">
 						6
@@ -100,7 +106,7 @@
 					<div class="title heado">Red-flag <br/> Rejected</div>
 					<div class="widget_stat">
 						<div class="widget_stat1">
-						<i class="fa fa-dot-circle-o"></i>
+						<i class="fa fa-compress"></i>
 						</div>
 						<div class="widget_stat2">
 						6
@@ -119,15 +125,61 @@
 					</div>
 				</div>
 				
-				<div class="widget" style="flex-basis:400px;">
-					<div class="title heado">Intervention Rejected</div>
-					<div class="widget_stat">
-						<div class="widget_stat1">
-						<i class="fa fa-user-times"></i>
-						</div>
-						<div class="widget_stat2">
-						4
-						</div>
+				<div class="widget widget_table">
+					<div class="title heado">Records List</div>
+					<div class="widget_stat widget_stat_table">
+						<table>
+						<thead>
+							<tr>
+								<th>Id</th>
+								<th>Type</th>
+								<th>Status</th>
+								<th>Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="#">1</a></td>
+								<td>Red Flag</td>
+								<td>Rejected</td>
+								<td>
+									<span><a href="#"><i class="fa fa-eye"></i></a></span> | 
+									<span><a href="#"><i class="fa fa-pencil-square"></i></a></span> | 
+									<span><a href="#"><i class="fa fa-trash"></i></a></span>
+								</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Intervention</td>
+								<td>Accepted</td>
+								<td>
+									<span><a href="#"><i class="fa fa-eye"></i></a></span> | 
+									<span><a href="#"><i class="fa fa-pencil-square"></i></a></span> | 
+									<span><a href="#"><i class="fa fa-trash"></i></a></span>
+								</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>Red Flag</td>
+								<td>Investigation</td>
+								<td>
+									<span><a href="#"><i class="fa fa-eye"></i></a></span> | 
+									<span><a href="#"><i class="fa fa-pencil-square"></i></a></span> | 
+									<span><a href="#"><i class="fa fa-trash"></i></a></span>
+								</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>Intervention</td>
+								<td>Accepted</td>
+								<td>
+									<span><a href="#"><i class="fa fa-eye"></i></a></span> | 
+									<span><a href="#"><i class="fa fa-pencil-square"></i></a></span> | 
+									<span><a href="#"><i class="fa fa-trash"></i></a></span>
+								</td>
+							</tr>
+						</tbody>
+						</table>
 					</div>
 				</div>
 				
@@ -135,7 +187,7 @@
 		</div>
 	
 	<footer>
-		<div>&copy; 2018 Samorahno inc</div>
+		<div>&copy; 2018 Abosede Samson</div>
     </footer>
 	
 	<script src="static/js/script.js"></script>
