@@ -6,6 +6,13 @@ body{
 	margin:0px;
 	padding:0px;
 	background-color:#35475e;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+body a{
+	text-decoration:none;
 }
 
 
@@ -323,4 +330,22 @@ table tbody tr:nth-child(odd){
 .widget_stat.widget_stat_table{
 	text-align:center;
 	width:100%;
+}
+
+.usertable tr:nth-child(even){
+	background-color:#eef1f7;
+}
+
+.usertable tr:nth-child(odd){
+	background-color:#5f9ea0;
+}
+
+#green{
+	color:green;
+}
+#orange{
+	color:orange;
+}
+#red{
+	color:red;
 }
